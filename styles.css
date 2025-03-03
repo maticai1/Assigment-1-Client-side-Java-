@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to bottom, #f9f9f9, #d0e8f2);
+    color: #333;
+    text-align: center;
+}
+
+h1 {
+    color: #4a90e2;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Container for buttons */
+#button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 3px solid #87ceeb;
+    border-radius: 15px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for all buttons */
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Individual button colors */
+#noun1 { background-color: #ff7f50; }
+#verb { background-color: #ffa07a; }
+#adjective { background-color: #87ceeb; }
+#noun2 { background-color: #90ee90; }
+#setting { background-color: #9370db; }
+
+/* Playback buttons */
+#playback, #random {
+    background-color: #4a90e2;
+    width: 160px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 12px;
+}
+
+/* Hover effect for buttons */
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Selected Words Display */
+p {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #555;
+}
+
+/* Story paragraph */
+#story {
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
